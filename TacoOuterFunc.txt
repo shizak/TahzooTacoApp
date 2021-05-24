@@ -1,0 +1,32 @@
+// Shiza Khan
+// Tahzoo Taco App
+// Outer Func
+
+public void Taco (int[] orders, int[] arrTimes) {
+	//will change later to integrate with actual input format
+	//assume orders are already placed in order of arrival time
+	//implement method to continue array as program runs later on, perhaps change to queue
+
+	//Input req: processes/orders themselves, arrival time, burst time
+	//TAT = WT + BT = CT - AT
+	//WT = TAT - BT
+	
+	int i, TAT = 0, currentTime = 0, time;
+	int[] burstTime;
+	int[] completionTime;
+	
+	for (i = 0; i < orders.length; i++) {
+		//call inner func to go through order
+		//from inner func, receive total time order takes //or would this just be burst time
+		burstTime[i] = innerFunc(order[i]); //overall how long order takes to finish
+		
+		completionTime[i] = currentTime + burstTime[i];
+		
+		currentTime = completionTime[i]; //updates current time to after order is done
+		
+		TAT = completionTime[i] - arrTimes[i]; //can also calc WT if needed but eh for now
+		
+		//call output mssg func to tell user taco is fully done
+	}
+	
+}
