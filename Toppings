@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class Test
+{
+	public static void Toppings(string[] args)
+	{
+  string[] toppings = {"Lettuce", "Onion", "Steak", "Cheese"};
+  int tacoTime = 0; //How long does the taco take -> Send to Shiza
+  List<string> instructions = new List<string>(); //-> Log Process of taco Send to William
+  List<int> instructionsTime = new List<int>(); //Time it takes -> Send to William
+        if(toppings.Contains("Lettuce")){
+        instructions.Add("Chopping lettuce"); 
+        instructionsTime.Add(10);
+        //instructions.ToList().ForEach(Console.WriteLine);
+        tacoTime += 10;
+        }
+        if(toppings.Contains("Onion")){
+        instructions.Add("Slicing Onion"); 
+        instructionsTime.Add(10);
+        //instructions.ToList().ForEach(Console.WriteLine);
+        tacoTime += 10;
+        }
+        if(toppings.Contains("Steak")){
+        instructions.Add("Grilling Steak"); 
+        instructionsTime.Add(30);
+        //instructions.ToList().ForEach(Console.WriteLine);
+        tacoTime += 30;
+        }
+        if(toppings.Contains("Cheese")){
+        instructions.Add("Shredding Cheese"); 
+        instructionsTime.Add(5);
+        //instructions.ToList().ForEach(Console.WriteLine);
+        tacoTime += 5;
+        }
+  Console.WriteLine(tacoTime);
+  instructions.ToList().ForEach(Console.WriteLine);
+  instructionsTime.ToList().ForEach(Console.WriteLine);
+		}
+	}
