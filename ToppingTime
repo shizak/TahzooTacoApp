@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+  public static void ToppingTime(string[] toppings,int[] toppingTime) {
+    //string[] toppings = {"Lettuce", "Onion", "Steak", "Cheese"}; Simulation of what comes on a taco
+    List < int > toppingTime = new List < int > (); //Time it takes -> Send to William
+    if (toppings.Contains("Lettuce")) {
+      prepTime.Add(10);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains(10)) {
+      prepTime.Add("Slicing Onion");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Steak")) {
+      prepTime.Add(30);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Cheese")) {
+      prepTime.Add(5);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    toppingTime = prepTime.ToArray();
+    return toppingTime;
+    //Console.WriteLine(tacoTime);Test Statement
+    //instructions.ToList().ForEach(Console.WriteLine); Test Statement 
+    //instructionsTime.ToList().ForEach(Console.WriteLine); Test Statement
+  }
+}
