@@ -4,7 +4,6 @@ using System.Linq;
 
   public static void Toppings(string[] toppings,string[] instructions) {
     //string[] toppings = {"Lettuce", "Onion", "Steak", "Cheese"}; Simulation of what comes on a taco
-    int tacoTime = 0; //How long does the taco take -> Send to Shiza
     List < string > instructions = new List < string > (); //Log Process of taco Send to William
     List < int > instructionsTime = new List < int > (); //Time it takes -> Send to William
     if (toppings.Contains("Lettuce")) {
