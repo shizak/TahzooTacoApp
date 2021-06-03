@@ -28,7 +28,7 @@
       //instructions.ToList().ForEach(Console.WriteLine);
       tacoTime += 5;
     }
-    Console.WriteLine(tacoTime);
+    //Console.WriteLine(tacoTime);Test Statement
     //instructions.ToList().ForEach(Console.WriteLine); Test Statement 
     //instructionsTime.ToList().ForEach(Console.WriteLine); Test Statement
   }
