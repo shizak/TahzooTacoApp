@@ -1,5 +1,5 @@
 {
-  public static void Toppings(string[] toppings) {
+  public static void Toppings(string[] toppings, int tacoTime) {
     //string[] toppings = {"Lettuce", "Onion", "Steak", "Cheese"}; Simulation of what comes on a taco
     int tacoTime = 0; //How long does the taco take -> Send to Shiza
     List < string > instructions = new List < string > (); //Log Process of taco Send to William
@@ -28,6 +28,7 @@
       //instructions.ToList().ForEach(Console.WriteLine);
       tacoTime += 5;
     }
+    return tacoTime;
     //Console.WriteLine(tacoTime);Test Statement
     //instructions.ToList().ForEach(Console.WriteLine); Test Statement 
     //instructionsTime.ToList().ForEach(Console.WriteLine); Test Statement
