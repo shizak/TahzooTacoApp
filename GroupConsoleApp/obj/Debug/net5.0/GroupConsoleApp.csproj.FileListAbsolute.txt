@@ -1,0 +1,16 @@
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\GroupConsoleApp.exe
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\GroupConsoleApp.deps.json
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\GroupConsoleApp.runtimeconfig.json
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\GroupConsoleApp.runtimeconfig.dev.json
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\GroupConsoleApp.dll
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\ref\GroupConsoleApp.dll
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\bin\Debug\net5.0\GroupConsoleApp.pdb
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.csproj.AssemblyReference.cache
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.AssemblyInfoInputs.cache
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.AssemblyInfo.cs
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.dll
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\ref\GroupConsoleApp.dll
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.pdb
+C:\Users\William Ferebee\Desktop\ShizaTruck\GroupConsoleApp\obj\Debug\net5.0\GroupConsoleApp.genruntimeconfig.cache
