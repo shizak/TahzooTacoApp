@@ -1,0 +1,13 @@
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.exe
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.deps.json
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.runtimeconfig.json
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.runtimeconfig.dev.json
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.dll
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.pdb
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.csprojAssemblyReference.cache
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.AssemblyInfoInputs.cache
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.AssemblyInfo.cs
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.csproj.CoreCompileInputs.cache
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.dll
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.pdb
+C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.genruntimeconfig.cache
