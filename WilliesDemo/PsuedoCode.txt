@@ -1,0 +1,36 @@
+﻿//  Intro - Welome
+
+//  Pick what kind of Taco and How Many
+        
+        // Two kinds of Taco
+            // one taco takes a little longer than the other taco
+        
+        // Choose How many Tacos
+
+//  Process - console log all of the ingrdients cooking async
+
+//  After Processing - Ask if they would like to order more tacos
+
+
+
+//  Make empty classes for all of the ingredients and seperate them into two folders depending on whcih taco they belong to
+
+
+//  Master Method that takes in amount and kind(s) of taco
+    //  -(int amountOfTypeOne, int amountOfTypeTwo)
+    // Run CopyCat of BreakfastAsync Method
+            
+
+
+// Copy BreakfastAsync for the creation of each taco
+    // each taco will have a method that runs all of the processing 
+        // each method will know how many to make from the master methods args of (amountOfTypeOne, and amountOfTypeTwo)
+    // when done a bollean will e flipped from false to true
+
+// Maybe put all of this in a WHILE method that depends on a boolean of whether or not that order is done.
+// Once while method is up, run the Intro again and ask if they would like to continue or not
+
+
+
+
+
