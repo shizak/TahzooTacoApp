@@ -21,6 +21,46 @@ using System.Linq;
       prepTime.Add(5000);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
+    if (toppings.Contains("Lettuce")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Guacamole")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Cilantro")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Salsa")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Tomato")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Carne Asada")) {
+      prepTime.Add(3000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Barbacoa")) {
+      prepTime.Add(3000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Chicken")) {
+      prepTime.Add(3000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Black Bean")) {
+      prepTime.Add(1500);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Custom)) {
+      prepTime.Add(1500
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
     toppingTime = prepTime.ToArray();
     return toppingTime;
     //Console.WriteLine(tacoTime);Test Statement
