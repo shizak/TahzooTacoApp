@@ -9,8 +9,8 @@ using System.Linq;
       prepTime.Add(10);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
-    if (toppings.Contains(10)) {
-      prepTime.Add("Slicing Onion");
+    if (toppings.Contains("Onion)) {
+      prepTime.Add("10");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Steak")) {
