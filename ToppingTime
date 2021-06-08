@@ -10,7 +10,7 @@ using System.Linq;
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Onion)) {
-      prepTime.Add("10");
+      prepTime.Add(10);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Steak")) {
