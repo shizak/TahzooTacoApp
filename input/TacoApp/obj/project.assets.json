@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Preethi Prem\\.nuget\\packages\\": {},
+    "C:\\Users\\William Ferebee\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Preethi Prem\\source\\TahzooTacoApp\\input\\TacoApp\\TacoApp.csproj",
+      "projectUniqueName": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\input\\TacoApp\\TacoApp.csproj",
       "projectName": "TacoApp",
-      "projectPath": "C:\\Users\\Preethi Prem\\source\\TahzooTacoApp\\input\\TacoApp\\TacoApp.csproj",
-      "packagesPath": "C:\\Users\\Preethi Prem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Preethi Prem\\source\\TahzooTacoApp\\input\\TacoApp\\obj\\",
+      "projectPath": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\input\\TacoApp\\TacoApp.csproj",
+      "packagesPath": "C:\\Users\\William Ferebee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\input\\TacoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Preethi Prem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\William Ferebee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
