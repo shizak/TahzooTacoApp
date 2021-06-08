@@ -30,7 +30,7 @@ namespace ConsoleApp1
             //Console.ReadLine();
         }
 
-        static string[] toppings = { "Lettuce", "Onion", "Steak", "Cheese" }; //Simulation of what comes on a taco
+        //static string[] toppings = { "Lettuce", "Onion", "Steak", "Cheese" }; //Simulation of what comes on a taco
 
         public static List<string> Toppings(string[] toppings, int tacoTime) {
 
