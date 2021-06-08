@@ -137,14 +137,22 @@ namespace ConsoleApp1
                             Console.WriteLine((j + 1) + ". " + topping_list[j] + "\n");
                         }
 
-                        Console.WriteLine("Number of Toppings:"); // have to limit this to 6
+                        Console.WriteLine("Number of Toppings - 6 max:"); // have to limit this to 6
                         string numTop = Console.ReadLine();
                         int numToppings = StrToInt(numTop);
+
+                        if (numToppings > 6) // validation of numToppings
+                    {
+                        numToppings = 6;
+                    } else if (numToppings < 1)
+                    {
+                        numToppings = 1;
+                    } // end of validation for numToppings
 
                         Console.WriteLine("\nEnter number to choose topping");
                         string topping = "";
 
-                        for (int j = 0; j < numToppings; j++)
+                        for (int j = 0; j < numToppings; j++) // limit the number of toppings to 6
                         {
                             Console.WriteLine("Topping #" + (j + 1));
                             string topping_input_str = Console.ReadLine();
