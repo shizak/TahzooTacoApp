@@ -21,6 +21,46 @@ using System.Linq;
       prep.Add("Shredding Cheese");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
+    if (toppings.Contains("Lettuce")) {
+      prepTime.Add("Chopping Lettuce");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Guacamole")) {
+      prepTime.Add("Scooping Guacamole");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Cilantro")) {
+      prepTime.Add("Dicing Cilantro");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Salsa")) {
+      prepTime.Add("Scooping Salsa");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Tomato")) {
+      prepTime.Add("Dicing Tomatoes);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Carne Asada")) {
+      prepTime.Add("Grilling Carna Asada");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Barbacoa")) {
+      prepTime.Add("Stewing Barbacoa");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Chicken")) {
+      prepTime.Add("Grilling Chicken");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Black Bean")) {
+      prepTime.Add("Scooping Black Bean");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Custom")) {
+      prepTime.Add("Creating Custom Taco");
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
     instructions = prep.ToArray();
     return instructions;
     //Console.WriteLine(tacoTime);Test Statement
