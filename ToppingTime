@@ -6,19 +6,59 @@ using System.Linq;
     //string[] toppings = {"Lettuce", "Onion", "Steak", "Cheese"}; Simulation of what comes on a taco
     List < int > toppingTime = new List < int > (); //Time it takes -> Send to William
     if (toppings.Contains("Lettuce")) {
-      prepTime.Add(10);
+      prepTime.Add(1000);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
-    if (toppings.Contains(10)) {
-      prepTime.Add("Slicing Onion");
+    if (toppings.Contains("Onion)) {
+      prepTime.Add(1000);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Steak")) {
-      prepTime.Add(30);
+      prepTime.Add(3000);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Cheese")) {
-      prepTime.Add(5);
+      prepTime.Add(5000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Lettuce")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Guacamole")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Cilantro")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Salsa")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Tomato")) {
+      prepTime.Add(1000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Carne Asada")) {
+      prepTime.Add(3000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Barbacoa")) {
+      prepTime.Add(3000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Chicken")) {
+      prepTime.Add(3000);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Black Bean")) {
+      prepTime.Add(1500);
+      //instructions.ToList().ForEach(Console.WriteLine);
+    }
+    if (toppings.Contains("Custom)) {
+      prepTime.Add(1500);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     toppingTime = prepTime.ToArray();
