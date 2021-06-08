@@ -12,13 +12,11 @@ class MainClass {
             public string Protein { get; set; }
             public string Topping { get; set; }
             public string Time { get; set; }
-            public Taco(string type, string protein, string topping, string time)
-            {
+            public Taco(string type, string protein, string topping, string time) {
                 Type = type;
                 Protein = protein;
                 Topping = topping;
                 Time = time;
-
             }
         }
 
@@ -44,6 +42,7 @@ class MainClass {
 			//call Tony's func, pass him individual taco order
 		}
 
-		//call William's func when whole order is done, pass him whatever he asks for
+		//call William's func when whole order is done
+		//pass him whatever he asks for
 	}
 }
