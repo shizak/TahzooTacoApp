@@ -6,21 +6,28 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
 
+            
+                bool showMenu = true;
 
-      
+                while (showMenu)
+                {
+                    showMenu = UI.MainMenu(); // will return true or false based on switch value in MainMenu Method
+                }
+            
 
-            Console.WriteLine("Hello World!");
 
-            List<string> myList = Toppings(toppings, 5);
-            Console.WriteLine("\n");
+            //Console.WriteLine("Hello World!");
 
-            LogInstructions(myList);
+            //List<string> myList = Toppings(toppings, 5);
+            //Console.WriteLine("\n");
 
-            Console.ReadLine();
+            //LogInstructions(myList);
+
+            //Console.ReadLine();
         }
 
         static string[] toppings = { "Lettuce", "Onion", "Steak", "Cheese" }; //Simulation of what comes on a taco
