@@ -58,7 +58,7 @@ using System.Linq;
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Custom)) {
-      prepTime.Add(1500
+      prepTime.Add(1500);
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     toppingTime = prepTime.ToArray();
