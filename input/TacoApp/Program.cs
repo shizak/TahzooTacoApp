@@ -29,7 +29,7 @@ namespace StringManipulation
 
             while (showMenu)
             {
-                showMenu = MainMenu();
+                showMenu = MainMenu(); // will return true or false based on switch value in MainMenu Method
             }
         }
         private static bool MainMenu()
@@ -64,24 +64,25 @@ namespace StringManipulation
         {
             Console.Clear();
 
-            StreamReader reader = File.OpenText("menu.txt");
+            StreamReader reader = File.OpenText("menu.txt"); // Shows individual menu items -
+            // can be found in the debug folder for this portion of the project along with all of the other txt files
             string line;
-            while ((line = reader.ReadLine()) != null)
+            while ((line = reader.ReadLine()) != null)  // returns null when at the end of the file i think
             {
-                string[] items = line.Split('\n');
+                string[] items = line.Split('\n'); // creates an Items array from what it seperates from the string Line at "\n" instances
 
                 foreach (string item in items)
                 {
-                    Console.WriteLine(item);
+                    Console.WriteLine(item);   
                 }
             }
 
-            Console.WriteLine("\nPress Enter to go back");
+            Console.WriteLine("\nPress Enter to go back");  //  Works good because it doesnt mater what i press, it only resolves if i hit enter
             Console.ReadLine();
 
         }
 
-        private static int StrToInt(string str)
+        private static int StrToInt(string str) //used a lot on the Order method for brevity
         {
             int x=0;
             try
@@ -116,6 +117,7 @@ namespace StringManipulation
             {
                 count++;
                 Console.WriteLine(String.Format(count + ". " + item.Protein + " Taco {0,5}$2.50" + "\n\n", "\t\t"));
+                // these are all formating and style things {0,5} adds spaces - \n is a line space - \t is a format space
 
             }
 
@@ -214,7 +216,7 @@ namespace StringManipulation
             Console.WriteLine("Total\t\t\t{0:C}", tacoOrder.Count * 2.50);
 
 
-            Console.WriteLine("\nAdd to Order? (Y/N)");
+            Console.WriteLine("\nAdd to Order? (Y/N)");  // Add answer.toUpper() and check for other mistakes
 
             string answer = Console.ReadLine();
 

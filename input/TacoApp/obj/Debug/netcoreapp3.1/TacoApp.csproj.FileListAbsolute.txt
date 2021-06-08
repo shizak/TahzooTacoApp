@@ -11,3 +11,16 @@ C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoA
 C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.dll
 C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.pdb
 C:\Users\Preethi Prem\source\repos\TacoApp\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.genruntimeconfig.cache
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.exe
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.deps.json
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.runtimeconfig.json
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.runtimeconfig.dev.json
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.dll
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\bin\Debug\netcoreapp3.1\TacoApp.pdb
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.csproj.AssemblyReference.cache
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.AssemblyInfoInputs.cache
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.AssemblyInfo.cs
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.csproj.CoreCompileInputs.cache
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.dll
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.pdb
+C:\Users\William Ferebee\Desktop\cool\TahzooTacoApp\input\TacoApp\obj\Debug\netcoreapp3.1\TacoApp.genruntimeconfig.cache

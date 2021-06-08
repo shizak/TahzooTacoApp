@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\William Ferebee\\Desktop\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj": {}
+    "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj": {}
   },
   "projects": {
-    "C:\\Users\\William Ferebee\\Desktop\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj": {
+    "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\William Ferebee\\Desktop\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
+        "projectUniqueName": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
         "projectName": "MyTacoTruck",
-        "projectPath": "C:\\Users\\William Ferebee\\Desktop\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
+        "projectPath": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
         "packagesPath": "C:\\Users\\William Ferebee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\William Ferebee\\Desktop\\TahzooTacoApp\\WilliesDemo\\obj\\",
+        "outputPath": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

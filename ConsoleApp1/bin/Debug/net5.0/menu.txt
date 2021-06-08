@@ -1,0 +1,17 @@
+Menu 
+
+Carne Asada		$2.50
+	Carne asada with onion, guacamole, and cilantro
+
+Barbacoa Taco		$2.50
+	Barbacoa with onion, guacamole, and cilantro
+
+Chicken Taco		$2.50
+	Chicken with onion, tomato, cheese, and salsa
+
+Black Bean Taco		$2.50
+	Black bean with onion, tomato, guacamole, and cheese
+
+Custom Taco		$2.50
+	Choice of protein: carne asada, barbacoa, chicken, or black beans
+	Choice of toppings: onion, tomato, guacamole, cheese, salsa, cilantro
