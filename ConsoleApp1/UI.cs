@@ -147,7 +147,7 @@ namespace ConsoleApp1
                     } else if (numToppings < 1)
                     {
                         numToppings = 1;
-                    } // end of validation for numToppings
+                    } // end of validation for numToppings//
 
                         Console.WriteLine("\nEnter number to choose topping");
                         string topping = "";
