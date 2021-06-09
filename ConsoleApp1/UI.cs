@@ -137,7 +137,7 @@ namespace ConsoleApp1
                             Console.WriteLine((j + 1) + ". " + topping_list[j] + "\n");
                         }
 
-                        Console.WriteLine("Number of Toppings - 6 max:"); // have to limit this to 6
+                        Console.WriteLine("Number of Toppings - 6 max:"); // have to limit this to 6 //
                         string numTop = Console.ReadLine();
                         int numToppings = StrToInt(numTop);
 
