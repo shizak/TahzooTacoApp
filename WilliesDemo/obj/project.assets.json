@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
+      "projectUniqueName": "C:\\Users\\William Ferebee\\Desktop\\NotCool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
       "projectName": "MyTacoTruck",
-      "projectPath": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
+      "projectPath": "C:\\Users\\William Ferebee\\Desktop\\NotCool\\TahzooTacoApp\\WilliesDemo\\MyTacoTruck.csproj",
       "packagesPath": "C:\\Users\\William Ferebee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\William Ferebee\\Desktop\\cool\\TahzooTacoApp\\WilliesDemo\\obj\\",
+      "outputPath": "C:\\Users\\William Ferebee\\Desktop\\NotCool\\TahzooTacoApp\\WilliesDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

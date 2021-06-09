@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace ConsoleApp1
 {
     class UI
@@ -164,6 +166,8 @@ namespace ConsoleApp1
                         string time = DateTime.Now.ToString("h:mm:ss tt");
                         Taco t1 = new Taco("Custom", p.Protein, topping, time);
                         tacoOrder.Add(t1);
+               
+                   
                     }
                 }
                 else
@@ -181,13 +185,29 @@ namespace ConsoleApp1
                         Taco t = (Taco)typeTaco[order - 1];
                         t.Time = time;
                         tacoOrder.Add(t);
-
-                    }
+                   
+                }
                 }
 
 
                 Receipt(tacoOrder);
-                return tacoOrder;
+
+                Console.WriteLine("\nAdd to Order? (Y/N)");  // Add answer.toUpper() and check for other mistakes
+
+                string answer = Console.ReadLine();
+
+                if (answer == "Y")
+                {
+                    Order(tacoOrder);
+                }
+                else
+                {
+                    Console.Clear();
+                    CookingMethods.CookTheTacos(tacoOrder);
+                Console.ReadLine();
+                }
+
+            return tacoOrder;
             }
 
             private static void Receipt(ArrayList tacoOrder)
@@ -207,14 +227,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Total\t\t\t{0:C}", tacoOrder.Count * 2.50);
 
 
-                Console.WriteLine("\nAdd to Order? (Y/N)");  // Add answer.toUpper() and check for other mistakes
-
-                string answer = Console.ReadLine();
-
-                if (answer == "Y")
-                {
-                    Order(tacoOrder);
-                }
+               
 
             }
 
