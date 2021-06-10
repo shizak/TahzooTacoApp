@@ -35,16 +35,22 @@ namespace ConsoleApp1
                 CookIndividual(t, words);
 
             }
+
+            
         }
 
 
 
-        public static void CookIndividual(Taco taco, string[] toppingsArr)
+        public static async Task CookIndividual(Taco taco, string[] toppingsArr)
         {
         
-            ToppingSifter.Toppings(toppingsArr);
-            ToppingSifter.ProteinSifter(taco);
- 
+             ToppingSifter.Toppings(toppingsArr);
+             await ToppingSifter.ProteinSifter(taco);
+            
+            await Task.Delay(3000);
+            Console.WriteLine("Assembling and Boxing the tacos up");
+            await Task.Delay(3000);
+            Console.WriteLine("Your Order Is Ready!");
         }
 
 

@@ -177,7 +177,7 @@ namespace ConsoleApp1
 
                     Console.WriteLine("Quantity: ");
                     q_str = Console.ReadLine();
-                    int q_int = StrToInt(order_str);
+                    int q_int = StrToInt(q_str);// order_str changed to q_str
 
                     for (int i = 0; i < q_int; i++)
                     {
@@ -204,7 +204,7 @@ namespace ConsoleApp1
                 {
                     Console.Clear();
                     CookingMethods.CookTheTacos(tacoOrder);
-
+                   
                 Console.ReadLine();
                 }
 
