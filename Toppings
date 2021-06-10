@@ -6,59 +6,60 @@ using System.Linq;
     //string[] toppings = {"Lettuce", "Onion", "Steak", "Cheese"}; Simulation of what comes on a taco
     List < string > instructions = new List < string > (); //Log Process of taco Send to William
     if (toppings.Contains("Lettuce")) {
-      prep.Add("Chopping lettuce");
+    var lettuce_count = toppings.Count(s => s == "Lettuce");
+      prep.Add("Chopping"+lettuce_count+" servings of lettuce");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Onion")) {
-      prep.Add("Slicing Onion");
+    var onion_count = toppings.Count(s => s == "Onion");
+      prep.Add("Chopping"+onion_count+" servings of onion");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Steak")) {
-      prep.Add("Grilling Steak");
+    var streak_count = toppings.Count(s => s == "Steak");
+      prep.Add("Grilling"+steak_count+" servings of steak");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Cheese")) {
-      prep.Add("Shredding Cheese");
-      //instructions.ToList().ForEach(Console.WriteLine);
-    }
-    if (toppings.Contains("Lettuce")) {
-      prepTime.Add("Chopping Lettuce");
-      //instructions.ToList().ForEach(Console.WriteLine);
+      var cheese_count = toppings.Count(s => s == "Cheese");
+      prep.Add("Shredding"+cheese_count+" servings of cheese");
     }
     if (toppings.Contains("Guacamole")) {
-      prepTime.Add("Scooping Guacamole");
-      //instructions.ToList().ForEach(Console.WriteLine);
+      var guacamole_count = toppings.Count(s => s == "Guacamole");
+      prep.Add("Scooping"+guacamole_count+" servings of Guacamole");
     }
     if (toppings.Contains("Cilantro")) {
-      prepTime.Add("Dicing Cilantro");
-      //instructions.ToList().ForEach(Console.WriteLine);
+      var cilantro_count = toppings.Count(s => s == "Cilantro");
+      prep.Add("Chopping"+cilantro_count+" servings of cilantro");
     }
     if (toppings.Contains("Salsa")) {
-      prepTime.Add("Scooping Salsa");
+      var salsa_count = toppings.Count(s => s == "Salsa");
+      prep.Add("Scooping"+salsa_count+" servings of salsa");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Tomato")) {
-      prepTime.Add("Dicing Tomatoes);
+      var tomato_count = toppings.Count(s => s == "Tomato");
+      prep.Add("Dicing"+tomato_count+" servings of tomato");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Carne Asada")) {
-      prepTime.Add("Grilling Carna Asada");
+      var carne_count = toppings.Count(s => s == "Carne Asada");
+      prep.Add("Grilling"+carne_count+" servings of carne asada");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Barbacoa")) {
-      prepTime.Add("Stewing Barbacoa");
+      var barbacoa_count = toppings.Count(s => s == "Barbacoa");
+      prep.Add("heating"+barbacoa_count+" servings of Barbacoa");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Chicken")) {
-      prepTime.Add("Grilling Chicken");
+      var chicken_count = toppings.Count(s => s == "Chicken");
+      prep.Add("Grilling"+chicken_count+" servings of chicken");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     if (toppings.Contains("Black Bean")) {
-      prepTime.Add("Scooping Black Bean");
-      //instructions.ToList().ForEach(Console.WriteLine);
-    }
-    if (toppings.Contains("Custom")) {
-      prepTime.Add("Creating Custom Taco");
+      var bean_count = toppings.Count(s => s == "Black Bean");
+      prep.Add("Scooping"+bean_count+" servings of black bean");
       //instructions.ToList().ForEach(Console.WriteLine);
     }
     instructions = prep.ToArray();
