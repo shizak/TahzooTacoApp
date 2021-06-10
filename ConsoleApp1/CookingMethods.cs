@@ -20,29 +20,32 @@ namespace ConsoleApp1
         //Custom:Onion,Tomato,Guacamole,Cheese,Salsa,Cilantro
 
 
-        public static async Task CookTheTacos(ArrayList taco)
+        public static async Task CookTheTacos(ArrayList tacos)
         {
 
-           
-            foreach (var item in taco) // instead of foreach, I will have to call CookTheTacos on each taco in the list
-                // because right now they are basically executing syncrohnously. This is doable but will take sometime
-                // idk if this is the right direction to go
+
+            foreach (var item in tacos)
             {
                 Taco t = (Taco)item;
-                Console.WriteLine($"Heating up the skillet for the {t.Protein} tacos");
-                await Task.Delay(2000);
-                Console.WriteLine($"{t.Protein} in the skillet");
-                await Task.Delay(5000);
+
+                string phrase = t.Topping;
+                string[] words = phrase.Split(',');
+
+                //Console.WriteLine(t);
+                CookIndividual(t, words);
 
             }
-  
-
-
         }
 
 
 
-
+        public static void CookIndividual(Taco taco, string[] toppingsArr)
+        {
+        
+            ToppingSifter.Toppings(toppingsArr);
+            ToppingSifter.ProteinSifter(taco);
+ 
+        }
 
 
     }
