@@ -203,7 +203,7 @@ namespace ConsoleApp1
                 else
                 {
                     Console.Clear();
-                    CookingMethods.CookTheTacos(tacoOrder);
+                    CookingMethods.CookTheTacosAsync(tacoOrder);
                    
                 Console.ReadLine();
                 }

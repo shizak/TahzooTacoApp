@@ -43,7 +43,7 @@ namespace ConsoleApp1
             }
              if (toppings.Contains("Cilantro"))
             {
-                Console.WriteLine("Dicing Cilantro");
+                Console.WriteLine("Chopping Cilantro");
                 await Task.Delay(2000);
                 Console.WriteLine("Cilantro Ready");
             }
@@ -63,12 +63,13 @@ namespace ConsoleApp1
             }
 
 
-
+   
 
         public static async Task ProteinSifter(Taco taco)
         {
             if (taco.Protein == ("Carne Asada"))
             {
+                
                 Console.WriteLine("Grilling Carna Asada");
                 await Task.Delay(7000);
                 Console.WriteLine("Carne Asada Is Cooked");
