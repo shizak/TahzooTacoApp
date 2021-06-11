@@ -18,7 +18,6 @@ namespace ConsoleApp1
             Protein = protein;
             Topping = topping;
             Time = time;
-
         }
     }
 }

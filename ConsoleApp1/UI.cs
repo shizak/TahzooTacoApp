@@ -12,11 +12,6 @@ namespace ConsoleApp1
 {
     class UI
     {
-
-
-
-         
-
             public static bool MainMenu()
             {
                 Console.Clear();
@@ -42,8 +37,6 @@ namespace ConsoleApp1
                         return true;
                 }
             }
-
-
 
             private static void Menu()
             {
@@ -227,11 +220,7 @@ namespace ConsoleApp1
                 }
                 Console.WriteLine("Total\t\t\t{0:C}", tacoOrder.Count * 2.50);
 
-
-               
-
             }
-
         }
     }
 

@@ -25,32 +25,34 @@ namespace ConsoleApp1
             string[] myArr = new string[] { };
 
             foreach (var item in tacos)// splits the order up and takes ingreidsnt string -parses and pushes them to an array
-            // to be passed off and cooked
+                                        // to be passed off and cooked
             {
                 Taco t = (Taco)item;
 
                 string phrase = t.Topping;
                 string[] words = phrase.Split(',');
                 myArr = myArr.Concat(words).ToArray();
-                //Console.WriteLine(t);
+                
                 CookIndividualAsync(t, words);
-
             }
-
-            
         }
 
 
 
-        public static async Task CookIndividualAsync(Taco taco, string[] toppingsArr)
+        public static async Task CookIndividualAsync(Taco taco, string[] toppingsArr)  
         {
         
-             ToppingSifter.Toppings(toppingsArr);
-             await ToppingSifter.ProteinSifter(taco);
+            ToppingSifter.Toppings(toppingsArr);
+
+            await ToppingSifter.ProteinSifter(taco);
             
-            await Task.Delay(5000);
+            await Task.Delay(5000); // wait 5 seconds till after ProteinSifter has initiated to Print the next line
+                                    // need to piece it together so it just doesnt run until after all the tacos are cooked
+
             Console.WriteLine("Assembling and Pacakaging the taco");
-            await Task.Delay(7000);
+
+            await Task.Delay(7000);  // wait 7 more seconds before outputing the next line
+
             Console.WriteLine("\n Your Taco Is Ready!");
         }
 

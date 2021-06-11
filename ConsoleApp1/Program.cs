@@ -8,20 +8,12 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-
-
-            
                 bool showMenu = true;
 
                 while (showMenu)
                 {
                     showMenu = UI.MainMenu(); // will return true or false based on switch value in MainMenu Method
                 }
-            
-
-
-          
         }
-
     }
 }

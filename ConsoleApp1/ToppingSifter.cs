@@ -59,11 +59,8 @@ namespace ConsoleApp1
                 await Task.Delay(5000);
                 Console.WriteLine("Tomatos Diced");
             }
-          
-            }
+        }
 
-
-   
 
         public static async Task ProteinSifter(Taco taco)
         {
@@ -100,14 +97,5 @@ namespace ConsoleApp1
             }
         }
     }
-
-
-
-
-
-
-
-
-   
-    }
+}
 
