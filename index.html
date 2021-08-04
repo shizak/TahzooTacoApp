@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Tahzoo Intern Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    </head>    
+        <body>
+        
+            
+            <section>
+            <div class="card">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <div>
+                            <h2>Post Title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vitae vero ratione qui delectus, provident harum consequatur. Totam, distinctio ex! Ratione tempora eius libero ullam unde eos officia vel eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <div>
+                            <h2>Post Title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vitae vero ratione qui delectus, provident harum consequatur. Totam, distinctio ex! Ratione tempora eius libero ullam unde eos officia vel eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <div>
+                            <h2>Post Title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vitae vero ratione qui delectus, provident harum consequatur. Totam, distinctio ex! Ratione tempora eius libero ullam unde eos officia vel eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <div>
+                            <h2>Post Title</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vitae vero ratione qui delectus, provident harum consequatur. Totam, distinctio ex! Ratione tempora eius libero ullam unde eos officia vel eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <div class="navigation" id="draggable" class="ui-widget-content">
+            <div class="toggle"></div>
+            <ul>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <span class="title">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+                    <span class="title">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    <span class="title">Settings</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+
+        <script>
+            const navigation = document.querySelector('.navigation');
+            document.querySelector('.toggle').onclick = function(){
+                this.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+        $( function() {
+            $( ".navigation" ).draggable();
+        } );
+        </script>        
+     
+        </body>
+</html>
